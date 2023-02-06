@@ -70,7 +70,6 @@ body
     display: flex;
     max-width: 500px;
     justify-content: center;
-    background-color: #;
 }
 
 .content-upper .second-head
@@ -92,7 +91,68 @@ button{
 .content-lower
 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+}
+
+.content-lower .random
+{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+.text-ul ul
+{
+    display: flex;
     justify-content: center;
+    gap: 25px;
+    padding: 0; 
+    margin: 0;
+
+}
+.text-ul ul li
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.text-ul ul li .secondary
+{
+    
+    height: 120px;
+    width: 120px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.text-ul ul li .textual
+{
+    display: flex;
+    max-width: 120px;
+    text-align: center;
+}
+
+.quote
+{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px;
+}
+.quote .quote_text
+{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .signature
+{
+    text-align: right;
+    font-weight: 900;
+
 }
 
 
