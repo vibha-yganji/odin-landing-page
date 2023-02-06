@@ -1,7 +1,9 @@
 html, body 
 {
     margin:0; 
-    padding:0;  
+    padding:0; 
+    display: flex;
+    flex-direction: column; 
 }
 
 body
@@ -42,7 +44,7 @@ body
     color: #F9FAF8;
     justify-content: center;
     gap: 72px;
-    padding: 24px;
+    padding: 60px;
 }
 
 
@@ -83,9 +85,15 @@ body
 
 }
 
-button{
-    background-color: lightseagreen;
-    border-radius: 7px;
+.content-upper .head .first{
+    background-color: #3882F6;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    border-radius: 4px;
+
 }
 
 .content-lower
@@ -155,5 +163,65 @@ button{
 
 }
 
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button
+{
+    margin: 100px;
+    padding: 25px;
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: #3882F6;
+}
 
+.button .inner-button button
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid transparent;
+    background-color: #3882F6;
+    color: white;
+}
+.button .sign-up-second
+{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+}
+.button .sign-up-second button
+{
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    border-radius: 4px;
+
+}
+
+.button .inner-button button .first 
+{
+    font-weight: 900;
+
+}
+
+.footer 
+{
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
 
